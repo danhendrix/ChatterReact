@@ -6,7 +6,12 @@ class MessageView extends React.Component {
 	constructor(props) {
 		super(props);
 		this.messages = [];
-		this.fetchMessages();
+		this.testMessage = {
+			body: 'hey',
+			author: 'me',
+			time: 'now'
+		}
+		// this.fetchMessages();
 	}
 
 	fetchMessages() {
